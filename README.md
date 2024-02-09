@@ -1,5 +1,5 @@
 # ITCS 4230 Intro to Game Design Project 1
-## Game Title: Axel's Adventure
+## Game Title: Axel's All-Wheel Adventure
 
 ### Current Scope:
 * First, beginner level
