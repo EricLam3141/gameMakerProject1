@@ -1,10 +1,10 @@
 // Move Left
-if(keyboard_check(vk_left)){
+if(keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_block)){
 	hspeed -= move_speed;
 }
 
 // Move Right
-if(keyboard_check(vk_right)){
+if(keyboard_check(vk_right )and !instance_place(x+move_speed,y,obj_block)){
 	hspeed += move_speed;
 }
 
