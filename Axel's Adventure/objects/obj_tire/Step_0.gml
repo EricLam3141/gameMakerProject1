@@ -1,14 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle += .5; // Just to make it look like it is rotating, high rotation speeds get funky
+//image_angle += .5; // Just to make it look like it is rotating, high rotation speeds get funky
 gravity = 0.1;
 
 //Logic for tire bouncing, if it hits player, then it turns around 
 if (hit_player = false) {
-hspeed = -move_speed;
-}
-else if (hit_player = true) {
-	hspeed = move_speed;
+hspeed = move_speed;
+} else if (hit_player = true) {
+	if(obj_player.hspeed > 0 ) {
+		hspeed = move_speed*2
+	} else if (obj_player.hspeed < 0) {
+		hspeed = -move_speed*2
+	}
 	vspeed = bounce_height/2;
 	if(alarm[1] < 0) {         //Dunno why I needed to add the if statement, but it doesnt work otherwise
 		alarm[1] = 60;
