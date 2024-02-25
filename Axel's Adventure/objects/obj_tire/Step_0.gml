@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+image_angle += .5; // Just to make it look like it is rotating, high rotation speeds get funky
 gravity = 0.1;
 
 //Logic for tire bouncing, if it hits player, then it turns around 
