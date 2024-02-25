@@ -37,7 +37,6 @@
     {"name":"Spr_tire","order":5,"path":"sprites/Spr_tire/Spr_tire.yy",},
     {"name":"spr_marker","order":7,"path":"sprites/spr_marker/spr_marker.yy",},
     {"name":"obj_wrench","order":15,"path":"objects/obj_wrench/obj_wrench.yy",},
-    {"name":"obj_restart","order":1,"path":"objects/obj_restart/obj_restart.yy",},
     {"name":"MenuRoom","order":1,"path":"rooms/MenuRoom/MenuRoom.yy",},
     {"name":"obj_button_fullscreen","order":3,"path":"objects/obj_button_fullscreen/obj_button_fullscreen.yy",},
     {"name":"spr_flyer","order":4,"path":"sprites/spr_flyer/spr_flyer.yy",},
