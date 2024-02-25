@@ -10,7 +10,7 @@ draw_text(55, 70, "Coins: " + string(obj_player.coin_total))
 
 //Draws GUI for Lives (Currently uses player sprite)
 
-for(i = 0; i < lives; i++){
+for(i = 0; i < obj_player.hp; i++){
 	draw_sprite(spr_player,0,(50 + 24 * i),15)
 }
 
