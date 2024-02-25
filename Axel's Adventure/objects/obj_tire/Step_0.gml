@@ -3,14 +3,15 @@
 //image_angle += .5; // Just to make it look like it is rotating, high rotation speeds get funky
 gravity = 0.1;
 
-//Logic for tire bouncing, if it hits player, then it turns around 
+//Logic for tire bouncing. If it hits player, 
+//then it turns around if player is moving in the same direction, boost tire in same direction 
 if (hit_player = false) {
 hspeed = move_speed;
 } else if (hit_player = true) {
 	if(obj_player.hspeed > 0 ) {
-		hspeed = move_speed*2
+		hspeed = move_speed*2;
 	} else if (obj_player.hspeed < 0) {
-		hspeed = -move_speed*2
+		hspeed = -move_speed*2;
 	}
 	vspeed = bounce_height/2;
 	if(alarm[1] < 0) {         //Dunno why I needed to add the if statement, but it doesnt work otherwise
