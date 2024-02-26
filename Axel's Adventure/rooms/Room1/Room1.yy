@@ -24,6 +24,7 @@
     {"name":"inst_E8BDEA9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_35928A2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6BE800F9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_367B1913","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -45,6 +46,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E8BDEA9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"rotation":-27.26576,"scaleX":2.0,"scaleY":0.5,"x":1472.0001,"y":928.00006,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35928A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"properties":[],"rotation":0.0,"scaleX":0.625,"scaleY":0.65625,"x":673.0,"y":906.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BE800F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"properties":[],"rotation":0.0,"scaleX":0.625,"scaleY":0.65625,"x":116.0,"y":907.5419,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_367B1913","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tire","path":"objects/obj_tire/obj_tire.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_tire","path":"objects/obj_tire/obj_tire.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_tire/obj_tire.yy",},"value":"5",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

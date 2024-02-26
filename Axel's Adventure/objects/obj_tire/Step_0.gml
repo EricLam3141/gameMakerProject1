@@ -4,10 +4,10 @@ gravity = 0.1;
 //Logic for tire bouncing and player collision. 
 
 if (hit_player = false) {
-hspeed = move_speed;                   //Normal state, 
+hspeed = move_speed;                   //Normal state, tire moves left
 } 
 else { 
-	if(obj_player.hspeed > 0 ) {             //Player moving right, recoil tire rig
+	if(obj_player.hspeed > 0 ) {            //Interacting with player collision
 		hspeed = move_speed*2;
 	} else if (obj_player.hspeed < 0) {
 		hspeed = -move_speed*2;
@@ -25,6 +25,6 @@ if(instance_place(x,y+1,obj_block)){
 }
 // Once bounce height gets too low, destroy the tire
 if bounce_height > -1 {
-	instance_destroy(obj_tire);
+	instance_destroy();
 }
 

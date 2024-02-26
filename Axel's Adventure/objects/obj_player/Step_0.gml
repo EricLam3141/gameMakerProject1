@@ -5,7 +5,7 @@ if(keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_block) and imm
 	hspeed -= move_speed;
 }
 
-// Move Right || Added plyer stun
+// Move Right || Added player stun
 if(keyboard_check(vk_right)and !instance_place(x+move_speed,y,obj_block)and immunity = false){
 	hspeed += move_speed;
 }
