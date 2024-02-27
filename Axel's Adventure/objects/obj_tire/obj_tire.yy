@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Spr_tire",
-    "path": "sprites/Spr_tire/Spr_tire.yy",
+    "name": "spr_tire",
+    "path": "sprites/spr_tire/spr_tire.yy",
   },
   "spriteMaskId": null,
   "visible": true,
