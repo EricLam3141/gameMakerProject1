@@ -1,5 +1,6 @@
 show_debug_message(hspeed)
 
+
 // Move Left || Added player stun
 if(keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_block) and immunity = false){
 	hspeed -= move_speed;
