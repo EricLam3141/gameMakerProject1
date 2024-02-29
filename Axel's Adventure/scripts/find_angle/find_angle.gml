@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function find_angle(){
-	angle = round(argument0;
+	angle = round(argument0);
 	hspace = argument1;
 	check = argument2;
 	
