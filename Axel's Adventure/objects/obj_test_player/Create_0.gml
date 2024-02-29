@@ -14,3 +14,6 @@ frc= 0.046875;
 grv = 0.21875
 
 ground = false;
+
+acos = 1;
+asin =0;
