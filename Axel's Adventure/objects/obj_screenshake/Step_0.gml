@@ -1,4 +1,4 @@
-
+//Referenced gamemaker website for this.
 if (shake) 
 { 
    shake_time -= 1; 
