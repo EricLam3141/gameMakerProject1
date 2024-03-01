@@ -4,6 +4,7 @@
     {"name":"curveTesting","order":15,"path":"folders/curveTesting.yy",},
     {"name":"objs","order":3,"path":"folders/curveTesting/objs.yy",},
     {"name":"scripts","order":4,"path":"folders/curveTesting/scripts.yy",},
+    {"name":"Collision Scripts","order":2,"path":"folders/curveTesting/scripts/Collision Scripts.yy",},
     {"name":"Extensions","order":13,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":12,"path":"folders/Notes.yy",},
@@ -19,7 +20,6 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Collision Scripts","order":2,"path":"folders/curveTesting/scripts/Collision Scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"collision_right","order":2,"path":"scripts/collision_right/collision_right.yy",},
