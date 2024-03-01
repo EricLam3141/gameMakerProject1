@@ -3,7 +3,7 @@ function p_physics(){
 	//Limits
 	if hsp > hsp1 hsp = hsp1;
 	if hsp <-hsp1 hsp =-hsp1;
-	if vsp>vsp1 vsp = vsp1;
+	if vsp > vsp1 vsp = vsp1;
 
 
 	//Horizontal movement
@@ -38,52 +38,51 @@ function p_physics(){
 			y -=1;
 		}
 	}
+	
+	//On ground (Landing)
+	if vsp >=0 && !ground && collision_bottom(16) && (collision_line_left(16) || collision_line_right(16))
+	{
+		
+		angle = find_angle(angle,16,16);
+		acos = cos(degtorad(angle));
+		asin = sin(degtorad(angle));
+		
+		vsp = 0;
+		ground = true;
+	}
+	
+	//Bind to ground
+	if ground 
+	{
+		while collision_main(16) 
+		{x -= asin; y -= acos;}
+		while (collision_ground(16) && !collision_main(16))
+		{x += asin; y += acos;}
+	}
+	
 	//Collision with walls
 	while(collision_right(16))
 	{
 		x -= acos;
 		y += asin;
 	}
-	while(collision_left(16))
+	while(collision_left(16)) 
 	{
 		x += acos;
 		y -= asin;
-	}
-	
-	//On ground (Landing)
-	if vsp >=0 && !ground && collision_bottom(16) && (collision_line_right(16) || collision_line_left(16))
-	{
 		
-		angle =  find_angle(0,10,16);
-		acos = cos(degtorad(angle));
-		asin = sin(degtorad(angle));
-		vsp = 0;
-		ground = true;
 	}
-	//Bind to ground
-	if ground 
-	{
-		while collision_main(16) 
-		{
-			x -= asin;
-			y -= acos;
-		}
-		while (collision_ground(16) && !collision_main(16))
-		{
-			x += asin;
-			y += acos;
-		}
-	}
+
 	
 	//Leave ground
-	if !collision_line_left(16) || !collision_line_right(16) && ground 
+	if (!collision_line_left(16) || !collision_line_right(16)) && ground 
 	{
 		ground = false
 	}
 	//Gravity
 	if !ground vsp +=grv;
 	
-	if (!collision_line_left(16) || !collision_line_right(16)) && ground
+	if ground && collision_line_left(16) && collision_line_right(16)
 	{
 		angle = find_angle(angle,16,24);
 	}

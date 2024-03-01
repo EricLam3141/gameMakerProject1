@@ -41,7 +41,6 @@
   },
   "resources": [
     {"id":{"name":"collision_right","path":"scripts/collision_right/collision_right.yy",},},
-    {"id":{"name":"obj_testing_block","path":"objects/obj_testing_block/obj_testing_block.yy",},},
     {"id":{"name":"obj_tire","path":"objects/obj_tire/obj_tire.yy",},},
     {"id":{"name":"CurveTesting","path":"rooms/CurveTesting/CurveTesting.yy",},},
     {"id":{"name":"snd_turbo","path":"sounds/snd_turbo/snd_turbo.yy",},},

@@ -23,7 +23,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"collision_right","order":2,"path":"scripts/collision_right/collision_right.yy",},
-    {"name":"obj_testing_block","order":2,"path":"objects/obj_testing_block/obj_testing_block.yy",},
     {"name":"obj_tire","order":11,"path":"objects/obj_tire/obj_tire.yy",},
     {"name":"obj_curve","order":3,"path":"objects/obj_curve/obj_curve.yy",},
     {"name":"obj_button_text","order":5,"path":"objects/obj_button_text/obj_button_text.yy",},
