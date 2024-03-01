@@ -33,7 +33,7 @@
     {"name":"obj_flyer","order":3,"path":"objects/obj_flyer/obj_flyer.yy",},
     {"name":"collision_bottom","order":4,"path":"scripts/collision_bottom/collision_bottom.yy",},
     {"name":"obj_turbocharger","order":5,"path":"objects/obj_turbocharger/obj_turbocharger.yy",},
-    {"name":"spr_curve","order":3,"path":"sprites/spr_curve/spr_curve.yy",},
+    {"name":"spr_curve","order":5,"path":"sprites/spr_curve/spr_curve.yy",},
     {"name":"snd_axel_idle","order":2,"path":"sounds/snd_axel_idle/snd_axel_idle.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"collision_top","order":3,"path":"scripts/collision_top/collision_top.yy",},

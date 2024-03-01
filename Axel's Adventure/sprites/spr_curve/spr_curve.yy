@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "scripts",
-    "path": "folders/curveTesting/scripts.yy",
+    "name": "curveTesting",
+    "path": "folders/curveTesting.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

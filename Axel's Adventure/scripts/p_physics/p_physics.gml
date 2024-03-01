@@ -4,7 +4,7 @@ function p_physics(){
 	if hsp > hsp1 hsp = hsp1;
 	if hsp <-hsp1 hsp =-hsp1;
 	if vsp>vsp1 vsp = vsp1;
-	if vsp<-vsp1 vsp = vsp1;
+
 
 	//Horizontal movement
 	if hsp > 0 
@@ -47,14 +47,14 @@ function p_physics(){
 	while(collision_left(16))
 	{
 		x += acos;
-		y += asin;
+		y -= asin;
 	}
 	
 	//On ground (Landing)
-	if vsp >=0 && !ground && collision_bottom(16) || collision_line_left(16)
+	if vsp >=0 && !ground && collision_bottom(16) && (collision_line_right(16) || collision_line_left(16))
 	{
 		
-		angle = find_angle(angle,16,16);
+		angle =  find_angle(0,10,16);
 		acos = cos(degtorad(angle));
 		asin = sin(degtorad(angle));
 		vsp = 0;
@@ -83,7 +83,7 @@ function p_physics(){
 	//Gravity
 	if !ground vsp +=grv;
 	
-	if ground && collision_line_left(16) && collision_line_right(16)
+	if (!collision_line_left(16) || !collision_line_right(16)) && ground
 	{
 		angle = find_angle(angle,16,24);
 	}
