@@ -2,7 +2,7 @@
 function p_movement(){
 	key_r = keyboard_check(vk_right);
 	key_l = keyboard_check(vk_left);
-	key_jump = keyboard_check(vk_space)
+	key_jump = keyboard_check(vk_up)
 	
 	//Player right movement
 	if key_r
