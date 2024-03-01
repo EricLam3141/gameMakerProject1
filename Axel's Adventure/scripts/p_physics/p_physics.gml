@@ -53,6 +53,10 @@ function p_physics(){
 	//On ground (Landing)
 	if vsp >=0 && !ground && collision_bottom(16) || collision_line_left(16)
 	{
+		
+		angle = find_angle(angle,16,16);
+		acos = cos(degtorad(angle));
+		asin = sin(degtorad(angle));
 		vsp = 0;
 		ground = true;
 	}
@@ -64,10 +68,10 @@ function p_physics(){
 			x -= asin;
 			y -= acos;
 		}
-		while (collision_ground(16) && !collision_main)
+		while (collision_ground(16) && !collision_main(16))
 		{
 			x += asin;
-			y -= acos;
+			y += acos;
 		}
 	}
 	
@@ -76,6 +80,18 @@ function p_physics(){
 	{
 		ground = false
 	}
-	
+	//Gravity
 	if !ground vsp +=grv;
+	
+	if ground && collision_line_left(16) && collision_line_right(16)
+	{
+		angle = find_angle(angle,16,24);
+	}
+	else 
+	{
+		angle = 0;
+	}
+	
+	acos = cos(degtorad(angle));
+	asin = sin(degtorad(angle));
 }

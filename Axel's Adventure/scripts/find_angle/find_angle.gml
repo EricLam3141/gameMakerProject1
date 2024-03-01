@@ -11,6 +11,9 @@ function find_angle(){
 	x1 = round(x-(acos*hspace));
 	y1 = round(y+(asin*hspace));
 	
+	x2 = round(x+(acos*hspace));
+	y2 = round(y-(asin*hspace));
+	
 	done1 = 0;
 	done2 = 0;
 	
