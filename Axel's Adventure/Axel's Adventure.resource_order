@@ -50,6 +50,7 @@
     {"name":"spr_tire","order":5,"path":"sprites/spr_tire/spr_tire.yy",},
     {"name":"spr_marker","order":6,"path":"sprites/spr_marker/spr_marker.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"obj_player_curve","order":17,"path":"objects/obj_player_curve/obj_player_curve.yy",},
     {"name":"collision_ground","order":5,"path":"scripts/collision_ground/collision_ground.yy",},
     {"name":"collision_line_right","order":6,"path":"scripts/collision_line_right/collision_line_right.yy",},
     {"name":"snd_supercharger","order":1,"path":"sounds/snd_supercharger/snd_supercharger.yy",},

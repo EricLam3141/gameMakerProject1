@@ -7,14 +7,14 @@ if (hit_player = false) {
 hspeed = move_speed;                   //Normal state, tire moves left
 } 
 else { 
-	if(obj_player.hspeed > 0 ) {            //Interacting with player collision
+	if(obj_player_curve.hsp > 0 ) {            //Interacting with player collision
 		hspeed = move_speed*2;
-	} else if (obj_player.hspeed < 0) {
+	} else if (obj_player_curve.hsp < 0) {
 		hspeed = -move_speed*2;
 	}
 	vspeed = bounce_height/2;
 	if(alarm[1] < 0) {         //Dunno why I needed to add the if statement, but it doesnt work otherwise
-		alarm[1] = 60;
+		alarm[1] = 30;
 	}
 }
 

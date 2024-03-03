@@ -22,13 +22,13 @@ function find_angle(){
 	{
 		if !done1
 		{
-			if collision_point(x1,y1,obj_testing_walls,true,true) done1 = true;
+			if collision_point(x1,y1,obj_block,true,true) done1 = true;
 			x1 += asin;
 			y1 += acos;
 		}
 		if !done2 
 		{
-			if collision_point(x2,y2,obj_testing_walls,true,true) done2 = true;
+			if collision_point(x2,y2,obj_block,true,true) done2 = true;
 			x2 += asin;
 			y2 += acos;
 		}

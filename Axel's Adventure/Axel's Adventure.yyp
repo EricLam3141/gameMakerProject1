@@ -79,6 +79,7 @@
     {"id":{"name":"spr_tire","path":"sprites/spr_tire/spr_tire.yy",},},
     {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"obj_player_curve","path":"objects/obj_player_curve/obj_player_curve.yy",},},
     {"id":{"name":"collision_ground","path":"scripts/collision_ground/collision_ground.yy",},},
     {"id":{"name":"collision_line_right","path":"scripts/collision_line_right/collision_line_right.yy",},},
     {"id":{"name":"snd_supercharger","path":"sounds/snd_supercharger/snd_supercharger.yy",},},

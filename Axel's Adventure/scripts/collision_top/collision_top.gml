@@ -3,7 +3,7 @@
 function collision_top(){
 	mask = argument0;
 	
-	if collision_circle(x-asin*mask,y-acos*mask,3,obj_testing_walls,true,true) {
+	if collision_circle(x-asin*mask,y-acos*mask,3,obj_block,true,true) {
 		return true;
 	} else {
 		return false;

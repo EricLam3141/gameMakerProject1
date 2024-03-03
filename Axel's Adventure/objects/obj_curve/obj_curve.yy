@@ -10,8 +10,8 @@
     "path": "folders/curveTesting/objs.yy",
   },
   "parentObjectId": {
-    "name": "obj_testing_walls",
-    "path": "objects/obj_testing_walls/obj_testing_walls.yy",
+    "name": "obj_block",
+    "path": "objects/obj_block/obj_block.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

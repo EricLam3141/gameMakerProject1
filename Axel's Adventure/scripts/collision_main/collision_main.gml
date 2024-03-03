@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function collision_main(){
 	mask = argument0
-	if collision_circle(x,y,mask,obj_testing_walls,true,true){
+	if collision_circle(x,y,mask,obj_block,true,true){
 		return true;
 	} else {
 		return false;
