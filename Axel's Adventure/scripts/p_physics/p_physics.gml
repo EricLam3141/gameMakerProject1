@@ -40,7 +40,7 @@ function p_physics(){
 	}
 	
 	//On ground (Landing)
-	if vsp >=0 && !ground && collision_bottom(16) && (collision_line_left(16) || collision_line_right(16))
+	if vsp >=0 && !ground && collision_bottom(18) && (collision_line_left(16) || collision_line_right(16))
 	{
 		
 		angle = find_angle(angle,16,16);
@@ -82,7 +82,7 @@ function p_physics(){
 	//Gravity
 	if !ground vsp +=grv;
 	
-	if ground && collision_line_left(16) && collision_line_right(16)
+	if ground && collision_line_left(8) && collision_line_right(8)
 	{
 		angle = find_angle(angle,16,24);
 	}
