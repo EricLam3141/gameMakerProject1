@@ -1,6 +1,13 @@
 gravity_direction = 270;
 audio_play_sound(snd_axel_idle,0,true,3);
 
+enum States {
+	
+	walking,
+	running,
+	boosted,
+	jumping
+}
 //3 hits and Axel Dies
 hp = 3;
 
@@ -22,10 +29,3 @@ ground = false;
 acos = 1;
 asin =0;
 
-enum States {
-	
-	walking,
-	running,
-	boosted,
-	jumping
-}
