@@ -40,6 +40,6 @@ function p_movement(){
 	if key_jump && ground
 	{
 		ground = false;
-		vsp -=6 + (hsp *  .3);
+		vsp -=6 + (abs(hsp) *  .3);
 	}
 }

@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Collision Scripts",
-    "path": "folders/curveTesting/scripts/Collision Scripts.yy",
+    "path": "folders/Scripts/scripts/Collision Scripts.yy",
   },
 }

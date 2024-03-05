@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "scripts",
-    "path": "folders/curveTesting/scripts.yy",
+    "path": "folders/Scripts/scripts.yy",
   },
 }

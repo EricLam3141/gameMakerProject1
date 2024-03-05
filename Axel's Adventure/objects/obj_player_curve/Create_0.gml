@@ -4,7 +4,7 @@ audio_play_sound(snd_axel_idle,0,true,3);
 //3 hits and Axel Dies
 hp = 3;
 
-
+//Variables related to character physics and movement
 hsp = 0;
 vsp = 0;
 hsp1 = 16;
@@ -21,3 +21,11 @@ ground = false;
 
 acos = 1;
 asin =0;
+
+enum States {
+	
+	walking,
+	running,
+	boosted,
+	jumping
+}
