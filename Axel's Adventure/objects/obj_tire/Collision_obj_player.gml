@@ -3,7 +3,7 @@ hit_player = true;
 
 
 if hit_player{
-	scr_shake(2, 7, 0.2); 
+	scr_shake(10, 71, 0.4); 
 }
 
 

@@ -1,6 +1,6 @@
 if(vsp > 0 and self.y < other.y){
 	instance_destroy(other);
-	vsp -=6
+	vsp -= (vsp *1.3)
 }
 else{
 	if(!immunity){
