@@ -20,6 +20,7 @@ if not keyboard_check(vk_anykey){
 if (keyboard_check(vk_up)){
 	if(instance_place(x,y+1,obj_block)){
 		vspeed = jump_height;
+		sprite_index = spr_player_jumping;
 	}
 }
 
