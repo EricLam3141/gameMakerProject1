@@ -30,6 +30,7 @@
     {"name":"collision_line_left","order":7,"path":"scripts/collision_line_left/collision_line_left.yy",},
     {"name":"obj_supercharger","order":6,"path":"objects/obj_supercharger/obj_supercharger.yy",},
     {"name":"obj_flyer","order":3,"path":"objects/obj_flyer/obj_flyer.yy",},
+    {"name":"obj_tire_spawner","order":18,"path":"objects/obj_tire_spawner/obj_tire_spawner.yy",},
     {"name":"collision_bottom","order":4,"path":"scripts/collision_bottom/collision_bottom.yy",},
     {"name":"obj_turbocharger","order":5,"path":"objects/obj_turbocharger/obj_turbocharger.yy",},
     {"name":"spr_curve","order":5,"path":"sprites/spr_curve/spr_curve.yy",},
