@@ -70,6 +70,7 @@
     {"id":{"name":"collision_left","path":"scripts/collision_left/collision_left.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},
+    {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"scr_shake","path":"scripts/scr_shake/scr_shake.yy",},},
     {"id":{"name":"FontMenu","path":"fonts/FontMenu/FontMenu.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
