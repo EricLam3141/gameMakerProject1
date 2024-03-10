@@ -8,4 +8,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(CurveTesting);
+//room_goto(CurveTesting);
