@@ -11,11 +11,11 @@ function p_movement_super(){
 		image_xscale = 1;
 		if hsp >=0 
 		{
-			hsp=6;
+			hsp=5;
 		}
 		else 
 		{
-			hsp +=deceleration*5;
+			hsp +=deceleration*3;
 		}
 		
 	}
@@ -26,18 +26,18 @@ function p_movement_super(){
 		image_xscale = -1;
 		if hsp <=0 
 		{
-			hsp = -6;
+			hsp = -5;
 		}
 		else 
 		{
-			hsp -=deceleration*5;
+			hsp -=deceleration*3;
 		}
 	}
 	//Player idle
 	if !key_r && ! key_l
 	{
-		if hsp > 0 hsp -= frc*4;
-		if hsp <0 hsp +=frc*4;
+		if hsp > 0 hsp -= frc*2;
+		if hsp < 0 hsp += frc*2;
 		if hsp <= frc && hsp >= -frc hsp = 0;
 		sprite_index = spr_player;
 	}

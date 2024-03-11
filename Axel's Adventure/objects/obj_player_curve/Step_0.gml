@@ -14,5 +14,6 @@ if !obj_player_curve.immunity and super{
 
 //Player death
 if hp <= 0 {
+	audio_stop_all()
 	room_goto(PlayerDeath)
 }

@@ -21,10 +21,10 @@ vsp1 = 16;
 hspSuper = 8
 vspSuper = 8
 
-acceleration = 0.056875;
+acceleration = 0.057;
 deceleration = 0.5;
 
-frc= 0.046875;
+frc= 0.066875;
 
 grv = 0.21875;
 

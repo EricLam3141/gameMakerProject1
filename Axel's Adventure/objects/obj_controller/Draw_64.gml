@@ -24,3 +24,13 @@ draw_text(55, 85, "Health: " + string(obj_player_curve.hp))
 }
 
 
+	if(obj_player_curve.turbo) {
+	draw_text(55,120, "TURBO");
+	}
+	
+	if(obj_player_curve.super) {
+
+	draw_text(55,120, "Super");
+	}
+
+
