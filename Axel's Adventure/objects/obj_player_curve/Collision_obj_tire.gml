@@ -10,9 +10,11 @@ if(instance_exists(obj_player_curve) and !immunity){
 	}
 	immunity = true;
 	hp -= 1;	
+	layer_set_visible("ScreenShake", true)
 	alarm[0] = 60;
 	
 	
+
 }
 
 

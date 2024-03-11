@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "curveTesting",
-    "path": "folders/curveTesting.yy",
+    "name": "deprecated assets",
+    "path": "folders/deprecated assets.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

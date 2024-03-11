@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
     {"name":"Animation Curves","order":11,"path":"folders/Animation Curves.yy",},
-    {"name":"curveTesting","order":15,"path":"folders/curveTesting.yy",},
-    {"name":"objs","order":3,"path":"folders/curveTesting/objs.yy",},
+    {"name":"deprecated assets","order":15,"path":"folders/deprecated assets.yy",},
+    {"name":"objs","order":3,"path":"folders/deprecated assets/objs.yy",},
     {"name":"Extensions","order":13,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":12,"path":"folders/Notes.yy",},
@@ -24,15 +24,13 @@
   "ResourceOrderSettings": [
     {"name":"collision_right","order":2,"path":"scripts/collision_right/collision_right.yy",},
     {"name":"obj_tire","order":11,"path":"objects/obj_tire/obj_tire.yy",},
-    {"name":"obj_curve","order":3,"path":"objects/obj_curve/obj_curve.yy",},
+    {"name":"obj_curve","order":2,"path":"objects/obj_curve/obj_curve.yy",},
     {"name":"obj_button_player_death","order":5,"path":"objects/obj_button_player_death/obj_button_player_death.yy",},
-    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
     {"name":"collision_line_left","order":7,"path":"scripts/collision_line_left/collision_line_left.yy",},
-    {"name":"obj_supercharger","order":6,"path":"objects/obj_supercharger/obj_supercharger.yy",},
     {"name":"obj_flyer","order":3,"path":"objects/obj_flyer/obj_flyer.yy",},
     {"name":"obj_tire_spawner","order":18,"path":"objects/obj_tire_spawner/obj_tire_spawner.yy",},
     {"name":"collision_bottom","order":4,"path":"scripts/collision_bottom/collision_bottom.yy",},
-    {"name":"obj_turbocharger","order":5,"path":"objects/obj_turbocharger/obj_turbocharger.yy",},
     {"name":"spr_curve","order":5,"path":"sprites/spr_curve/spr_curve.yy",},
     {"name":"snd_axel_idle","order":2,"path":"sounds/snd_axel_idle/snd_axel_idle.yy",},
     {"name":"p_movement_super","order":3,"path":"scripts/p_movement_super/p_movement_super.yy",},

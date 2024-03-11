@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objs",
-    "path": "folders/curveTesting/objs.yy",
+    "path": "folders/deprecated assets/objs.yy",
   },
   "parentObjectId": null,
   "persistent": false,
