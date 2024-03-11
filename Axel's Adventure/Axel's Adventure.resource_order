@@ -35,6 +35,7 @@
     {"name":"obj_turbocharger","order":5,"path":"objects/obj_turbocharger/obj_turbocharger.yy",},
     {"name":"spr_curve","order":5,"path":"sprites/spr_curve/spr_curve.yy",},
     {"name":"snd_axel_idle","order":2,"path":"sounds/snd_axel_idle/snd_axel_idle.yy",},
+    {"name":"p_movement_super","order":3,"path":"scripts/p_movement_super/p_movement_super.yy",},
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"collision_top","order":3,"path":"scripts/collision_top/collision_top.yy",},
     {"name":"obj_coin","order":2,"path":"objects/obj_coin/obj_coin.yy",},
