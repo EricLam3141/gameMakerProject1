@@ -48,6 +48,7 @@
     {"name":"spr_button","order":8,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"obj_marker","order":14,"path":"objects/obj_marker/obj_marker.yy",},
     {"name":"spr_tileset","order":11,"path":"sprites/spr_tileset/spr_tileset.yy",},
+    {"name":"spr_tire_spawner","order":15,"path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},
     {"name":"spr_player","order":2,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_controller","order":4,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_block","order":1,"path":"sprites/spr_block/spr_block.yy",},

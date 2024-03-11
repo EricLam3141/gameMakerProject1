@@ -31,7 +31,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"objectType","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"obj_tire","varType":5,},
   ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_tire_spawner",
+    "path": "sprites/spr_tire_spawner/spr_tire_spawner.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
