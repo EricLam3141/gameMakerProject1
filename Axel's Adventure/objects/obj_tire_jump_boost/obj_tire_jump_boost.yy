@@ -1,12 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wrench",
+  "name": "obj_tire_jump_boost",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_curve","path":"objects/obj_player_curve/obj_player_curve.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,9 +28,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_wrench",
-    "path": "sprites/spr_wrench/spr_wrench.yy",
+    "name": "spr_tire",
+    "path": "sprites/spr_tire/spr_tire.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_tire",
+    "path": "sprites/spr_tire/spr_tire.yy",
+  },
   "visible": true,
 }

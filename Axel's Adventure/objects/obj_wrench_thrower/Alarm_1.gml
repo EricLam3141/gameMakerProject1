@@ -1,0 +1,1 @@
+obj_wrench_thrower.can_toss = true;
