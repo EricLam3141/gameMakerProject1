@@ -69,6 +69,7 @@
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"collision_left","path":"scripts/collision_left/collision_left.yy",},},
+    {"id":{"name":"spr_wrench_thrower_throwing","path":"sprites/spr_wrench_thrower_throwing/spr_wrench_thrower_throwing.yy",},},
     {"id":{"name":"obj_wrench_thrower","path":"objects/obj_wrench_thrower/obj_wrench_thrower.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},

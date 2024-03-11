@@ -43,6 +43,7 @@
     {"name":"spr_wrench","order":7,"path":"sprites/spr_wrench/spr_wrench.yy",},
     {"name":"spr_player_jumping","order":9,"path":"sprites/spr_player_jumping/spr_player_jumping.yy",},
     {"name":"obj_tire_jump_boost","order":19,"path":"objects/obj_tire_jump_boost/obj_tire_jump_boost.yy",},
+    {"name":"spr_wrench_thrower_throwing","order":14,"path":"sprites/spr_wrench_thrower_throwing/spr_wrench_thrower_throwing.yy",},
     {"name":"obj_wrench_thrower","order":20,"path":"objects/obj_wrench_thrower/obj_wrench_thrower.yy",},
     {"name":"spr_button","order":8,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"obj_marker","order":14,"path":"objects/obj_marker/obj_marker.yy",},
