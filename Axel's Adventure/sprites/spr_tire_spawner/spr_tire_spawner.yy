@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"993b9e72-7724-4c16-b0df-b2651aa0ebc6",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"de713a8b-2057-4694-833d-4de0f4f03443",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"100f7db0-f0ce-4575-b3c8-7deb813c57ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5bf5123f-fc66-49cb-b65e-499a81889c96",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"314aa01f-5e4d-4d41-9bb8-76a7d3efa99d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"04ab088f-463c-4811-a87c-04e652f1ad09","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"993b9e72-7724-4c16-b0df-b2651aa0ebc6","path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},},},"Disabled":false,"id":"206c8f44-4a98-4db1-b826-60259390394a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"de713a8b-2057-4694-833d-4de0f4f03443","path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},},},"Disabled":false,"id":"0c6ac44f-b4f0-44b7-b970-4e152cda5232","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"100f7db0-f0ce-4575-b3c8-7deb813c57ce","path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},},},"Disabled":false,"id":"27002667-57e9-425d-93eb-0671d6641d2a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5bf5123f-fc66-49cb-b65e-499a81889c96","path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},},},"Disabled":false,"id":"fdd859e8-489d-4376-93a0-9c80e8b2da10","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
