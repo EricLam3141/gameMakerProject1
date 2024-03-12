@@ -15,7 +15,7 @@ function p_movement_super(){
 		}
 		else 
 		{
-			hsp +=deceleration*3;
+			hsp +=deceleration*10;
 		}
 		
 	}
@@ -30,15 +30,13 @@ function p_movement_super(){
 		}
 		else 
 		{
-			hsp -=deceleration*3;
+			hsp -=deceleration*10;
 		}
 	}
 	//Player idle
 	if !key_r && ! key_l
 	{
-		if hsp > 0 hsp -= frc*2;
-		if hsp < 0 hsp += frc*2;
-		if hsp <= frc && hsp >= -frc hsp = 0;
+		hsp = 0;
 		sprite_index = spr_player;
 	}
 	//Jumping

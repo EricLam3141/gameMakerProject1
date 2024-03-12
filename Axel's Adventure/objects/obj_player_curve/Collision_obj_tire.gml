@@ -3,10 +3,10 @@
 if(instance_exists(obj_player_curve) and !immunity){
 	if obj_player_curve.hsp >= 0 {
 	show_debug_message("Hit 1");
-	obj_player_curve.hsp -=  hsp1/2;
+	obj_player_curve.hsp -=  hsp1*.7;
 	} else if obj_player_curve.hsp < 0  {
 	show_debug_message("Hit 2");
-	obj_player_curve.hsp += hsp1/2
+	obj_player_curve.hsp += hsp1*.7
 	}
 	immunity = true;
 	stunned = true;
