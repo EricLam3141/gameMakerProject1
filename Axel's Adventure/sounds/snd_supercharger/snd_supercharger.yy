@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_supercharger.mp3",
   "type": 0,
-  "volume": 0.01,
+  "volume": 0.04,
 }

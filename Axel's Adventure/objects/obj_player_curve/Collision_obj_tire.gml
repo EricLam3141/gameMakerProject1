@@ -9,6 +9,7 @@ if(instance_exists(obj_player_curve) and !immunity){
 	obj_player_curve.hsp += hsp1
 	}
 	immunity = true;
+	stunned = true;
 	hp -= 1;	
 	layer_set_visible("ScreenShake", true)
 	alarm[0] = 60;

@@ -45,7 +45,7 @@ function p_movement_super(){
 	if key_jump && ground
 	{
 		ground = false;
-		vsp -=6 + (abs(hsp) *  .3);
+		vsp -=6 + (abs(hsp) *.3);
 		sprite_index = spr_player_jumping;
 	}
 	if !ground or !instance_place(x,y+1,obj_block) {
