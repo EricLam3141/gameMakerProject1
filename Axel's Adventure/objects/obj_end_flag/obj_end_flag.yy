@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_death",
+  "name": "obj_end_flag",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_curve","path":"objects/obj_player_curve/obj_player_curve.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
@@ -28,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_death",
-    "path": "sprites/spr_death/spr_death.yy",
+    "name": "spr_end_flag",
+    "path": "sprites/spr_end_flag/spr_end_flag.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
