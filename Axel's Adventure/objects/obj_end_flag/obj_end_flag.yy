@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_end_flag",
-    "path": "sprites/spr_end_flag/spr_end_flag.yy",
+    "name": "Sprite20",
+    "path": "sprites/Sprite20/Sprite20.yy",
   },
   "spriteMaskId": null,
   "visible": true,

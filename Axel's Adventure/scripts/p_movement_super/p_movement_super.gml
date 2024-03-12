@@ -11,7 +11,7 @@ function p_movement_super(){
 		image_xscale = 1;
 		if hsp >=0 
 		{
-			hsp=5;
+			hsp=6;
 		}
 		else 
 		{
@@ -26,7 +26,7 @@ function p_movement_super(){
 		image_xscale = -1;
 		if hsp <=0 
 		{
-			hsp = -5;
+			hsp = -6;
 		}
 		else 
 		{
@@ -43,7 +43,7 @@ function p_movement_super(){
 	if key_jump && ground
 	{
 		ground = false;
-		vsp -=6 + (abs(hsp) *.3);
+		vsp -=7 + (abs(hsp) *.3);
 		sprite_index = spr_player_jumping;
 	}
 	if !ground or !instance_place(x,y+1,obj_block) {
