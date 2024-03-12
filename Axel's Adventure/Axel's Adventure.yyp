@@ -75,6 +75,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
+    {"id":{"name":"spr_curve_dirt","path":"sprites/spr_curve_dirt/spr_curve_dirt.yy",},},
     {"id":{"name":"spr_tire_spawner","path":"sprites/spr_tire_spawner/spr_tire_spawner.yy",},},
     {"id":{"name":"FontMenu","path":"fonts/FontMenu/FontMenu.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
