@@ -1,3 +1,3 @@
 can_toss = true;
 
-image_xscale = -1;
+image_xscale = face_direction;
