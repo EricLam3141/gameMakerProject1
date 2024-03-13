@@ -44,6 +44,7 @@ function p_movement(){
 	//Jumping
 	if key_jump && ground
 	{
+		audio_play_sound(snd_axel_jump,1,false);
 		ground = false;
 		vsp -=6 + (abs(hsp) *  .3);
 		sprite_index = spr_player_jumping;

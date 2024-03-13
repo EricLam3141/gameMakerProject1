@@ -19,7 +19,7 @@ else {
 }
 
 //Bounce the tire once it reaches the ground
-if(instance_place(x,y+1,obj_block)){   
+if(instance_place(x,y+1,obj_block)){ 
 	vspeed = bounce_height;
 	bounce_height = bounce_height*.8    //Mimics bouncing elasticity
 }

@@ -32,5 +32,7 @@ draw_text(55, 85, "Health: " + string(obj_player_curve.hp))
 
 	draw_text(55,120, "Super");
 	}
+	
+
 
 
