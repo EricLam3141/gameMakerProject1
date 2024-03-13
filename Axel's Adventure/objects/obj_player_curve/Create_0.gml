@@ -1,5 +1,6 @@
 gravity_direction = 270;
 audio_play_sound(snd_axel_idle,0,true,3);
+audio_play_sound(snd_music,1,true);
 
 enum States {
 	

@@ -8,6 +8,7 @@ else{
 		audio_play_sound(snd_axel_hit,1,false)
 		hp -= 1
 		immunity = true;
+		stunned = true;
 		alarm[0] = 60;
 	}
 }
