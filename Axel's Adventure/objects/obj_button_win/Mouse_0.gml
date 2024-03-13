@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(PlayerWin)
 
 
 
+// Inherit the parent event
+event_inherited();
+
+room_goto(MenuRoom);
