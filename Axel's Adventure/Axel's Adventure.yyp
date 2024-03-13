@@ -52,6 +52,7 @@
     {"id":{"name":"collision_line_left","path":"scripts/collision_line_left/collision_line_left.yy",},},
     {"id":{"name":"obj_test_player","path":"objects/obj_test_player/obj_test_player.yy",},},
     {"id":{"name":"obj_flyer","path":"objects/obj_flyer/obj_flyer.yy",},},
+    {"id":{"name":"spr_lose_screen","path":"sprites/spr_lose_screen/spr_lose_screen.yy",},},
     {"id":{"name":"obj_tire_spawner","path":"objects/obj_tire_spawner/obj_tire_spawner.yy",},},
     {"id":{"name":"collision_bottom","path":"scripts/collision_bottom/collision_bottom.yy",},},
     {"id":{"name":"spr_curve","path":"sprites/spr_curve/spr_curve.yy",},},
