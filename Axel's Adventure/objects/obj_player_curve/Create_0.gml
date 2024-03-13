@@ -14,8 +14,8 @@ hp = 3;
 //Variables related to character physics and movement turbo mode
 hsp = 0;
 vsp = 0;
-hsp1 = 16;
-vsp1 = 16;
+hsp1 = 12;
+vsp1 = 12;
 
 // Variables related to character physics and movement supercharger mode
 hspSuper = 8
